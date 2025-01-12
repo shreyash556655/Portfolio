@@ -1,0 +1,1 @@
+export const HERO_CONTENT = `Hello, I'am Shreyash Ravindra Gaikwad. I'm a website devloper and I am from Jalna, Maharashtra. I study in 4th standard and my school is My Rich Dad's Academy (MRDA). I also make websites for others and if you want a website for yourself or your business, then please scroll down to the contact section.`;

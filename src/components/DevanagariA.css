@@ -1,0 +1,38 @@
+.devanagari-a {
+    stroke: white;
+    stroke-width: 0.5;
+    fill: transparent;
+  }
+  
+  .devanagari-a:hover {
+    animation: fillAnimationHover 3s forwards;
+    cursor: pointer;
+  }
+  
+  /* Initial fill animation */
+  .devanagari-a-initial {
+    animation: fillAnimation 3s forwards; /* Animation lasts 3 seconds */
+}
+
+@keyframes fillAnimationHover {
+    from {
+        fill: white;
+    } to {
+        fill: transparent;
+    }
+}
+
+@keyframes fillAnimation {
+    0% {
+        fill: transparent;
+    }
+    50% {
+        fill: white;
+    }
+    100% {
+        fill: transparent;
+    }
+}
+
+
+  
